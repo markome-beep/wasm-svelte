@@ -30,6 +30,7 @@
   </script>
   
   <div>
+    <h1>Test Redeployment</h1>
     <button on:click={() => {greet("Pirro")}}>Click Me</button>
     <button on:click={() => {x = crunch(new Uint8Array([1,2, 3, 4]))}}>{x}</button>
     <button on:click={() => {goodbye()}}>goodbye</button>
